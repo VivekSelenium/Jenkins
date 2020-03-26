@@ -20,7 +20,7 @@ public class TC001_Fastest_Flight_Price extends ProjectSpecificMethods {
 		
 
 			new SearchPage().searchdata(fromcity, tocity);
-			new SearchResultPage().searchResultsPage();
+			//new SearchResultPage().searchResultsPage();
 		
 	} catch (Exception e) {
 		// TODO Auto-generated catch block
