@@ -7,7 +7,7 @@ import pages.SearchPage;
 import pages.SearchResultPage;
 import projectBase.ProjectSpecificMethods;
 
-public class TC001_Fastest_Flight_Price extends ProjectSpecificMethods {
+public class TC001_Fastest_Flight_Price extends ProjectSpecificMethods{
 	@BeforeTest
 	public void setData() {
 		excelFileName = "Places";
@@ -20,10 +20,11 @@ public class TC001_Fastest_Flight_Price extends ProjectSpecificMethods {
 		
 
 			new SearchPage().searchdata(fromcity, tocity);
-			//new SearchResultPage().searchResultsPage();
+			Thread.sleep(5000);
+			new SearchResultPage().searchResultsPage();
 		
 	} catch (Exception e) {
-		// TODO Auto-generated catch block
+		
 		e.printStackTrace();
 	}
 }

@@ -2,6 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <parameter name="url" value="https://www.esky.com/"></parameter>
+<listeners>
+<listener class-name="projectBase.ListenerTest"/>
+<listener class-name="utils.ExtentTestNGITestListener"/>
+</listeners>
   <test thread-count="5" name="Test">
     <classes>
       <class name="testcases.TC001_Fastest_Flight_Price"/>
