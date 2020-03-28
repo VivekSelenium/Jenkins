@@ -32,7 +32,8 @@ public class ListenerTest extends ProjectSpecificMethods implements ITestListene
     }		
 
     @Override		
-    public void onTestFailure(ITestResult arg0) {					
+    public void onTestFailure(ITestResult arg0) {	
+    	System.out.println("I am inside Failure");
     	File src = (File)((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File target= new File("C:\\Users\\Yaazhisai\\Documents\\ScreenShot\\Fail.jpeg");
 		try {
@@ -57,7 +58,9 @@ public class ListenerTest extends ProjectSpecificMethods implements ITestListene
     }		
 
     @Override		
-    public void onTestSuccess(ITestResult arg0) {					
+    public void onTestSuccess(ITestResult arg0) {	
+    	
+    	System.out.println("I am inside success");
     	File src = (File)((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		File target= new File("C:\\Users\\Yaazhisai\\Documents\\ScreenShot\\Success.jpeg");
 		try {
