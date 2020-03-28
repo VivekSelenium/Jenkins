@@ -4,7 +4,6 @@
 <parameter name="url" value="https://www.esky.com/"></parameter>
 <listeners>
 <listener class-name="projectBase.ListenerTest"/>
-<listener class-name="utils.ExtentTestNGITestListener"/>
 </listeners>
   <test thread-count="5" name="Test">
     <classes>
