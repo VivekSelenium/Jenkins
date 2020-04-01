@@ -21,7 +21,7 @@ public class SearchPage extends ProjectSpecificMethods {
 		List<WebElement> autosugto = driver.findElementsByXPath("//div[@class='autocomplete-holder dropdown wrapper autocomplete-flights qa-arrivalOneway']//ul//li");
 		autosugto.get(0).click();
 		tocity.sendKeys(Keys.TAB);
-		WebElement calender = driver.findElementByXPath("//table[@class='ui-datepicker-calendar']//tbody//tr[6]//td[1]");
+		WebElement calender = driver.findElementByXPath("//*[@id=\"ui-datepicker-div\"]/table/tbody/tr[5]/td[4]/a");
 	    calender.click();
 		driver.findElementByXPath("//div[@class='wrap pax-widget custom-dropdown  ']").click();
 		driver.findElementByXPath("//a[@class='plus']").click();

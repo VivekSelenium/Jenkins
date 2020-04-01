@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="183455" started-at="2020-03-27T15:05:55 IST" finished-at="2020-03-27T15:08:58 IST">
+  <suite name="Suite" duration-ms="185356" started-at="2020-04-01T21:47:11 IST" finished-at="2020-04-01T21:50:16 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="183455" started-at="2020-03-27T15:05:55 IST" finished-at="2020-03-27T15:08:58 IST">
+    <test name="Test" duration-ms="185356" started-at="2020-04-01T21:47:11 IST" finished-at="2020-04-01T21:50:16 IST">
       <class name="testcases.TC001_Fastest_Flight_Price">
-        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="setData" is-config="true" duration-ms="51" started-at="2020-03-27T15:05:55 IST" finished-at="2020-03-27T15:05:55 IST">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="setData" is-config="true" duration-ms="188" started-at="2020-04-01T21:47:11 IST" finished-at="2020-04-01T21:47:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="startApp" is-config="true" duration-ms="22396" started-at="2020-03-27T15:05:57 IST" finished-at="2020-03-27T15:06:19 IST">
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="startApp" is-config="true" duration-ms="37300" started-at="2020-04-01T21:47:16 IST" finished-at="2020-04-01T21:47:54 IST">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="fastestFlightPrice" duration-ms="32673" started-at="2020-03-27T15:06:19 IST" data-provider="fetchData" finished-at="2020-03-27T15:06:52 IST">
+        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="fastestFlightPrice" duration-ms="22237" started-at="2020-04-01T21:47:54 IST" data-provider="fetchData" finished-at="2020-04-01T21:48:16 IST">
           <params>
             <param index="0">
               <value>
@@ -38,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fastestFlightPrice -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="closeApp" is-config="true" duration-ms="596" started-at="2020-03-27T15:06:52 IST" finished-at="2020-03-27T15:06:53 IST">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="closeApp" is-config="true" duration-ms="1118" started-at="2020-04-01T21:48:17 IST" finished-at="2020-04-01T21:48:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="startApp" is-config="true" duration-ms="27307" started-at="2020-03-27T15:06:53 IST" finished-at="2020-03-27T15:07:20 IST">
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="startApp" is-config="true" duration-ms="25455" started-at="2020-04-01T21:48:19 IST" finished-at="2020-04-01T21:48:44 IST">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="fastestFlightPrice" duration-ms="39258" started-at="2020-03-27T15:07:20 IST" data-provider="fetchData" finished-at="2020-03-27T15:07:59 IST">
+        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="fastestFlightPrice" duration-ms="29886" started-at="2020-04-01T21:48:44 IST" data-provider="fetchData" finished-at="2020-04-01T21:49:14 IST">
           <params>
             <param index="0">
               <value>
@@ -62,18 +62,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[DEL]]>
+                <![CDATA[SFO]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fastestFlightPrice -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="closeApp" is-config="true" duration-ms="2270" started-at="2020-03-27T15:07:59 IST" finished-at="2020-03-27T15:08:01 IST">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="closeApp" is-config="true" duration-ms="1355" started-at="2020-04-01T21:49:15 IST" finished-at="2020-04-01T21:49:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="startApp" is-config="true" duration-ms="21474" started-at="2020-03-27T15:08:01 IST" finished-at="2020-03-27T15:08:23 IST">
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="startApp" is-config="true" duration-ms="25957" started-at="2020-04-01T21:49:16 IST" finished-at="2020-04-01T21:49:42 IST">
           <params>
             <param index="0">
               <value>
@@ -84,23 +84,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startApp -->
-        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="fastestFlightPrice" duration-ms="33027" started-at="2020-03-27T15:08:23 IST" data-provider="fetchData" finished-at="2020-03-27T15:08:56 IST">
+        <test-method status="PASS" signature="fastestFlightPrice(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="fastestFlightPrice" duration-ms="27312" started-at="2020-04-01T21:49:42 IST" data-provider="fetchData" finished-at="2020-04-01T21:50:10 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ORD]]>
+                <![CDATA[DFW]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[JFK]]>
+                <![CDATA[SFO]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fastestFlightPrice -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@1f28c152]" name="closeApp" is-config="true" duration-ms="2335" started-at="2020-03-27T15:08:56 IST" finished-at="2020-03-27T15:08:58 IST">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testcases.TC001_Fastest_Flight_Price@887af79]" name="closeApp" is-config="true" duration-ms="3378" started-at="2020-04-01T21:50:13 IST" finished-at="2020-04-01T21:50:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
