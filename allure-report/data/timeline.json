@@ -1,0 +1,95 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-RTS8LFV",
+    "children" : [ {
+      "name" : "1076@DESKTOP-RTS8LFV.main(1)",
+      "children" : [ {
+        "name" : "fastestFlightPrice",
+        "uid" : "2f3f102c49c073e2",
+        "parentUid" : "02f777326e05b9a5a72a8507f1e99071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585927400180,
+          "stop" : 1585927426664,
+          "duration" : 26484
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "DFW", "SFO", "https://www.esky.com/" ]
+      }, {
+        "name" : "fastestFlightPrice",
+        "uid" : "caf9b89b5178aee4",
+        "parentUid" : "02f777326e05b9a5a72a8507f1e99071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585927286794,
+          "stop" : 1585927315126,
+          "duration" : 28332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "SFO", "DFW", "https://www.esky.com/" ]
+      }, {
+        "name" : "fastestFlightPrice",
+        "uid" : "4630f1630cee55d8",
+        "parentUid" : "02f777326e05b9a5a72a8507f1e99071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585927339112,
+          "stop" : 1585927367481,
+          "duration" : 28369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "MAA", "SFO", "https://www.esky.com/" ]
+      } ],
+      "uid" : "02f777326e05b9a5a72a8507f1e99071"
+    }, {
+      "name" : "5592@DESKTOP-RTS8LFV.main(1)",
+      "children" : [ {
+        "name" : "fastestFlightPrice",
+        "uid" : "20cb1fb2bab4458d",
+        "parentUid" : "46fa9d18acbef770e8a8bb9d0487d10e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585925762451,
+          "stop" : 1585925796086,
+          "duration" : 33635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "DFW", "SFO", "https://www.esky.com/" ]
+      }, {
+        "name" : "fastestFlightPrice",
+        "uid" : "9799292286067a",
+        "parentUid" : "46fa9d18acbef770e8a8bb9d0487d10e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585925635213,
+          "stop" : 1585925671085,
+          "duration" : 35872
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "SFO", "DFW", "https://www.esky.com/" ]
+      }, {
+        "name" : "fastestFlightPrice",
+        "uid" : "53d7611542adcb8",
+        "parentUid" : "46fa9d18acbef770e8a8bb9d0487d10e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585925704933,
+          "stop" : 1585925734716,
+          "duration" : 29783
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "MAA", "SFO", "https://www.esky.com/" ]
+      } ],
+      "uid" : "46fa9d18acbef770e8a8bb9d0487d10e"
+    } ],
+    "uid" : "2d6790e749ec865ae63ee59764ffc719"
+  } ]
+}

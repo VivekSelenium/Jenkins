@@ -1,0 +1,111 @@
+{
+  "uid" : "53d7611542adcb8",
+  "name" : "fastestFlightPrice",
+  "fullName" : "testcases.TC001_Fastest_Flight_Price.fastestFlightPrice",
+  "historyId" : "abbd483fdfbf2b906498b7d4a03265bb",
+  "time" : {
+    "start" : 1585925704933,
+    "stop" : 1585925734716,
+    "duration" : 29783
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startApp",
+    "time" : {
+      "start" : 1585925672549,
+      "stop" : 1585925704908,
+      "duration" : 32359
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "setData",
+    "time" : {
+      "start" : 1585925558710,
+      "stop" : 1585925558761,
+      "duration" : 51
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closeApp",
+    "time" : {
+      "start" : 1585925734724,
+      "stop" : 1585925735908,
+      "duration" : 1184
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "testcases.TC001_Fastest_Flight_Price"
+  }, {
+    "name" : "testClass",
+    "value" : "testcases.TC001_Fastest_Flight_Price"
+  }, {
+    "name" : "testMethod",
+    "value" : "fastestFlightPrice"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "testcases.TC001_Fastest_Flight_Price"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-RTS8LFV"
+  }, {
+    "name" : "thread",
+    "value" : "5592@DESKTOP-RTS8LFV.main(1)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "MAA"
+  }, {
+    "name" : "arg1",
+    "value" : "SFO"
+  }, {
+    "name" : "url",
+    "value" : "https://www.esky.com/"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53d7611542adcb8.json",
+  "parameterValues" : [ "MAA", "SFO", "https://www.esky.com/" ]
+}

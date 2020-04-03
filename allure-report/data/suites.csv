@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Apr 03 20:51:26 IST 2020","Fri Apr 03 20:51:55 IST 2020","28332","Suite","Test","testcases.TC001_Fastest_Flight_Price","testcases.TC001_Fastest_Flight_Price","fastestFlightPrice","fastestFlightPrice",""
+"passed","Fri Apr 03 20:52:19 IST 2020","Fri Apr 03 20:52:47 IST 2020","28369","Suite","Test","testcases.TC001_Fastest_Flight_Price","testcases.TC001_Fastest_Flight_Price","fastestFlightPrice","fastestFlightPrice",""
+"passed","Fri Apr 03 20:53:20 IST 2020","Fri Apr 03 20:53:46 IST 2020","26484","Suite","Test","testcases.TC001_Fastest_Flight_Price","testcases.TC001_Fastest_Flight_Price","fastestFlightPrice","fastestFlightPrice",""

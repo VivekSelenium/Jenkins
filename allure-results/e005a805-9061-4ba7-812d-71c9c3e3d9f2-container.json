@@ -1,0 +1,1 @@
+{"uuid":"e005a805-9061-4ba7-812d-71c9c3e3d9f2","name":"projectBase.ProjectSpecificMethods.closeApp","description":"","start":1585925734724,"stop":1585925735908,"children":["186d5207-77ba-487f-a7c2-4de677430c17"],"afters":[{"name":"closeApp","status":"passed","stage":"finished","description":"","start":1585925734724,"stop":1585925735908}]}
